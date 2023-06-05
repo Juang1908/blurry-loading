@@ -16,17 +16,17 @@ body {
 }
 
 .bg {
-    background-image: url('./images/webdev.jpg') no-repeat center center/cover;
+    background: url('./images/webdev.jpg') no-repeat center center/cover;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vw;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
     z-index: -1;
     filter: blur(0px);
 }
 
 .loading-text {
     font-size: 50px;
-    color: white;
+    color: rgb(200, 49, 49);
 }
